@@ -9,7 +9,7 @@ def convert_to_absolute(number: float) -> float:
     if number>=0:
         return number
     else:
-        number=number+(-2)*number
+        number*=-1
         return number
 
 
